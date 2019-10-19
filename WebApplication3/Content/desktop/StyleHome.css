@@ -1,0 +1,57 @@
+﻿[data-toggle="buttons"] > .btn > input[type="radio"],
+[data-toggle="buttons"] > .btn > input[type="checkbox"] {
+    clip: rect(1px 10px 1px 1px);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #009975;
+}
+
+.card {
+    background-color: #e1c699;
+    box-shadow: 0 4px 8px 0 #e1c699;
+    transition: 0.3s;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 330px;
+    height: 180px;
+}
+
+    .card:hover {
+        box-shadow: 0 8px 16px 0 #e1c699;
+    }
+
+.container2 {
+    padding: 2px 16px;
+}
+
+.activealign {
+    background: #e0e0e0;
+    margin: 0 0 1rem;
+    height: 10rem;
+    display: flex;
+    align-items: start;
+}
+
+.labelformat {
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.buttoncolocation{
+    font-size: 1.2em;
+    margin-top:5px;
+    margin-left:120px;
+}
+
+.formatnulo{
+    font-size:1.5em;
+    margin-left:42%;
+    margin-top:1%;
+}
+img {
+    width: 320px;
+    height: 140px;
+}
